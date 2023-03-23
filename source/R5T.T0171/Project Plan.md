@@ -1,2 +1,2 @@
 # R5T.T0171
-Instance variety name type library.
+Strongly-typed instance variety name type library.
