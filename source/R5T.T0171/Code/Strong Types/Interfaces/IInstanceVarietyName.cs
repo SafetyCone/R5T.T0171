@@ -8,9 +8,11 @@ namespace R5T.T0171
 {
     /// <summary>
     /// The name of an instance variety.
+    /// <para>Typed <basetype><see cref="string"/></basetype></para>
     /// </summary>
     [StrongTypeMarker]
-    public interface IInstanceVarietyName : ITyped<string>, IStrongTypeMarker
+    public interface IInstanceVarietyName : IStrongTypeMarker,
+        ITyped<string>
     {
     }
 }
